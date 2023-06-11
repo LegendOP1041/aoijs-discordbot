@@ -30,3 +30,10 @@ bot.interactionCommand({
     prototype: "slash",
     code: `$interactionReply[Pong! $pingms;;;;everyone;false]`
 });
+
+  bot.status({
+    text: "your mom",
+    type: "WATCHING",
+    time: 12,
+    shard: 0
+});
